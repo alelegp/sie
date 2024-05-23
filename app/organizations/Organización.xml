@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="gustavo">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="pepon">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="gordo">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="caca">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="gerente">
+      <displayName>gerente</displayName>
+    </role>
+    <role name="comercial">
+      <displayName>comercial</displayName>
+    </role>
+    <role name="artesano">
+      <displayName>artesano</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Grupo1">
+      <displayName>Grupo1</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>gustavo</userName>
+      <roleName>artesano</roleName>
+      <groupName>Grupo1</groupName>
+    </membership>
+    <membership>
+      <userName>pepon</userName>
+      <roleName>artesano</roleName>
+      <groupName>Grupo1</groupName>
+    </membership>
+    <membership>
+      <userName>gordo</userName>
+      <roleName>comercial</roleName>
+      <groupName>Grupo1</groupName>
+    </membership>
+    <membership>
+      <userName>caca</userName>
+      <roleName>gerente</roleName>
+      <groupName>Grupo1</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
